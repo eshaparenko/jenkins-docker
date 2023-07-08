@@ -11,3 +11,6 @@ Run jenkins server when docker already installed
 2. ```cd jenkins-docker```
 3. ```docker build -t jenkins-docker .```
 4. ```docker run -p 8080:8080 -p 50000:50000 -v /var/jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -d --name jenkins jenkins-docker:latest```
+
+Or you can run docker using docker-compose
+4. ```docker-compose up -d```
