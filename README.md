@@ -1,5 +1,11 @@
+# prepare jenkins infrastructure from scratch on Ubuntu
+1. ```wget https://raw.githubusercontent.com/eshaparenko/jenkins-docker/master/create_jenkins.sh```
+2. ```bash create_jenkins.sh```
+
+All infrastructure will be prepared
+
 # jenkins-docker
-Run docker inside docerized jenkins
+Run jenkins server when docker already installed
 
 1. ```git clone https://github.com/eshaparenko/jenkins-docker.git```
 2. ```cd jenkins-docker```
